@@ -30,20 +30,20 @@ These datasets was assessed for the following quality and tidiness issue, 8 qual
 
 # Quality Issues
 ## Twitter_archive
-Name column contains invalid values stored as None, the,and a etc.
-Null objects are represented as None in several columns
-Some of the tweet are not actual tweet but are reply or retweet
-Extract from "source" the medium/device in which the tweet were retweet from
-Extract "rating" from the "text" column
-olumns that are not needed such as "in_reply_to_status_id", "in_reply_to_user_id", "text", "retweeted_status_id", "retweeted_status_user_id", "retweeted_status_timestamp", "expanded_urls", should be deleted
-Time stamp is object instead of date time
+- Name column contains invalid values stored as None, the,and a etc.
+- Null objects are represented as None in several columns
+- Some of the tweet are not actual tweet but are reply or retweet
+- Extract from "source" the medium/device in which the tweet were retweet from
+- Extract "rating" from the "text" column
+- Columns that are not needed such as "in_reply_to_status_id", "in_reply_to_user_id", "text", "retweeted_status_id", "retweeted_status_user_id", - "retweeted_status_timestamp", "expanded_urls", should be deleted
+- Time stamp is object instead of date time
 ## image
 Incomplete data set i.e 2075 available instead of 2356
 
 # Tidiness Issues
 ## Image
-Dog stages are in multiple columns
-Combine the three data sets
+- og stages are in multiple columns
+- Combine the three data sets
 # Cleaning Data
 I completed all the cleaning steps by using the programmatic data cleaning process. With each step, I executed the code, verified and confirmed there weren't any errors. Once I had completed the cleaning and tideness of the archive dataframe I created a new dataframe called df_clean and save it into a new csv file. These are the different python built-in-functions and methods use for programmatic data cleaning process. i.e
 
