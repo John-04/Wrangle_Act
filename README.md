@@ -42,7 +42,7 @@ Incomplete data set i.e 2075 available instead of 2356
 
 # Tidiness Issues
 ## Image
-- og stages are in multiple columns
+- Dog stages are in multiple columns
 - Combine the three data sets
 # Cleaning Data
 I completed all the cleaning steps by using the programmatic data cleaning process. With each step, I executed the code, verified and confirmed there weren't any errors. Once I had completed the cleaning and tideness of the archive dataframe I created a new dataframe called df_clean and save it into a new csv file. These are the different python built-in-functions and methods use for programmatic data cleaning process. i.e
